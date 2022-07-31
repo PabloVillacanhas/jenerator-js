@@ -30,13 +30,15 @@ export function* randomNumber(min: number, max: number) {
 
 export function* randomString(length: number = 10) {
 	while (true) {
-		console.log('Math.random()', Math.random())
 		yield Math.random().toString(36).slice(length);
 	}
 }
 
-export const randomFrom = (items: Array<string | number | boolean>): string | number =>
-	items[Math.floor(Math.random() * items.length)] as string | number;
+export  function* randomFrom(items: Array<string | number | boolean>){
+	while (true) {
+		yield items[Math.floor(Math.random() * items.length)] as string | number;
+	}
+}
 
 export function* id() {
 	let id = 1;

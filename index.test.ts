@@ -1,5 +1,5 @@
 import { MockBuilder } from './index';
-import { id, randomNumber, randomString } from './randomizers';
+import { id, randomFrom, randomNumber, randomString } from './randomizers';
 
 //create a test that describe how object should be generate
 describe('Object generated', () => {
@@ -9,6 +9,7 @@ describe('Object generated', () => {
 		b: { c: number; d: number };
 		e: number;
 		f: number | null;
+		g: any
 	}[] = MockBuilder(4, {
 		id: id(),
 		a: randomNumber(0, 10000),
@@ -18,7 +19,7 @@ describe('Object generated', () => {
 		},
 		e: 4,
 		f: null,
-		d: randomFrom("u",6,"juja")
+		g: randomFrom(["u",6,"juja"])
 	});
 	it('Generates 4 objects', () => {
 		expect(object).toHaveLength(4);
@@ -42,7 +43,4 @@ describe('Object generated', () => {
 		expect(object[1]?.id).toBe(object[0]?.id! + 1);
 	});
 });
-function randomFrom(arg0: string, arg1: number, arg2: string): string | number | object | GeneratorFunction | null {
-	throw new Error('Function not implemented.');
-}
 
