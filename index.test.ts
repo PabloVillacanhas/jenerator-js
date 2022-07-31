@@ -5,7 +5,7 @@ import { id, randomNumber, randomString } from './randomizers';
 describe('Object generated', () => {
 	const object: {
 		id: number;
-		a: string;
+		a: number;
 		b: { c: number; d: number };
 		e: number;
 		f: number | null;
