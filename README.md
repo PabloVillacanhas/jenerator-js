@@ -1,2 +1,2 @@
 # jenerator-js
-Create random instances of objects 
+Create random instances of objects

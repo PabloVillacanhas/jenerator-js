@@ -1,0 +1,30 @@
+{
+  "name": "jenerator",
+  "version": "0.1.0",
+  "description": "A package to generate random instances of objects easily.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloVillacanhas/jenerator-js.git"
+  },
+  "keywords": [
+    "random",
+    "js",
+    "instances",
+    "objects"
+  ],
+  "author": "Pablo Villacanas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PabloVillacanhas/jenerator-js/issues"
+  },
+  "homepage": "https://github.com/PabloVillacanhas/jenerator-js#readme",
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "ts-jest": "^28.0.7",
+    "typescript": "^4.7.4"
+  }
+}
