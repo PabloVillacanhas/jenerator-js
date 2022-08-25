@@ -3,8 +3,10 @@
   "version": "0.1.1",
   "description": "A package to generate random instances of objects easily.",
   "main": "index.ts",
+  "module": "dist/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,8 @@
   "homepage": "https://github.com/PabloVillacanhas/jenerator-js#readme",
   "devDependencies": {
     "@types/jest": "^28.1.6",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
     "ts-jest": "^28.0.7",
     "typescript": "^4.7.4"
   }

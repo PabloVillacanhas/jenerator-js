@@ -1,5 +1,14 @@
 {
+	"moduleResolution": "node",
 	"compilerOptions": {
-		"esModuleInterop": true
-	}
+		"target": "esnext",
+		"module": "umd",
+		"esModuleInterop": true,
+		"outDir": "build",
+		"rootDir": "src",
+		"skipLibCheck": true
+	},
+	"exclude": [
+		"**/*.test.ts"
+	]
 }
