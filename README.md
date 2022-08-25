@@ -1,2 +1,27 @@
 # jenerator-js
-Create random instances of objects
+
+Creates random instances of objects.
+
+Minimum and easy library to generate instances of objects in javascript.
+
+- Supports the generation of objects with numeric and string values.
+- Supports the generation of constant fields.
+- Supportsd the random pick between a set of different items with `randomFrom`.
+
+As simple as:
+
+```
+MockBuilder(10, {
+    id: id(),
+    a: randomNumber(0, 10000),
+    b: {
+      c: randomNumber(0, 300),
+      d: randomString()
+    },
+    e: 4,
+    f: null,
+    g: randomFrom(["u", 6, "juja"])
+  });
+```
+
+See working example in [Codesandbox](https://codesandbox.io/s/jeneratorjs-demo-lryf2d?file=/src/useRandomizer.tsx)
