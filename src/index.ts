@@ -14,7 +14,6 @@ export const 	MockBuilder: <T>(numInstances: number, objectGen: Generable<T>) =>
 			if (objectGen[field] === null) {
 				value = null;
 			} else if (objectGen[field].constructor.constructor.name === 'GeneratorFunction') {
-				console.log('value', value)
 				value = objectGen[field].next().value;
 			} else if (objectGen[field] instanceof Object) {
 				value = MockBuilder(1, objectGen[field])[0]!;

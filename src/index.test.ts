@@ -25,7 +25,6 @@ describe('Object generated', () => {
 		expect(object).toHaveLength(4);
 	});
 	it('Generates an object with two fields, a and b with number and object types', () => {
-		console.log('object', object);
 		expect(typeof object[0]?.a).toBe('number');
 		expect(typeof object[0]?.b.c).toBe('number');
 		expect(typeof object[0]?.b.d).toBe('string');
