@@ -3,6 +3,7 @@
 Creates random instances of objects.
 
 Minimum and easy library to generate instances of objects in javascript.
+No dependencies. All
 
 - Supports the generation of objects with numeric and string values.
 - Supports the generation of constant fields.
@@ -25,3 +26,5 @@ MockBuilder(10, {
 ```
 
 See working example in [Codesandbox](https://codesandbox.io/s/jeneratorjs-demo-lryf2d?file=/src/useRandomizer.tsx)
+
+For a more powerful library you can take a look into [falso](https://www.npmjs.com/package/@ngneat/falso)
