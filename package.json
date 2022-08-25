@@ -1,6 +1,6 @@
 {
   "name": "jenerator-js",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "A package to generate random instances of objects easily.",
   "main": "lib/index.js",
   "module": "lib/index.js",
