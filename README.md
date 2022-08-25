@@ -1,5 +1,7 @@
 # jenerator-js
 
+[![Build Status](https://app.travis-ci.com/PabloVillacanhas/jenerator-js.svg?branch=main)](https://app.travis-ci.com/PabloVillacanhas/jenerator-js)
+[![Coverage Status](https://coveralls.io/repos/github/PabloVillacanhas/jenerator-js/badge.svg?branch=main)](https://coveralls.io/github/PabloVillacanhas/jenerator-js?branch=main)
 Creates random instances of objects.
 
 Minimum and easy library to generate instances of objects in javascript.
