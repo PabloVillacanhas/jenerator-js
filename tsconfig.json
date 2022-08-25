@@ -4,9 +4,11 @@
 		"target": "esnext",
 		"module": "umd",
 		"esModuleInterop": true,
-		"outDir": "build",
+		"outDir": "lib",
 		"rootDir": "src",
-		"skipLibCheck": true
+		"skipLibCheck": true,
+		"declaration": true,
+		"declarationMap": true,
 	},
 	"exclude": [
 		"**/*.test.ts"

@@ -2,8 +2,8 @@
   "name": "jenerator-js",
   "version": "0.1.1",
   "description": "A package to generate random instances of objects easily.",
-  "main": "index.ts",
-  "module": "dist/index.js",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
   "scripts": {
     "test": "jest",
     "build": "gulp build"
