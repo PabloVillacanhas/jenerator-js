@@ -1,4 +1,5 @@
-# jenerator-js
+# jenerator-js 🔄
+
 
 [![Build Status](https://app.travis-ci.com/PabloVillacanhas/jenerator-js.svg?branch=main)](https://app.travis-ci.com/PabloVillacanhas/jenerator-js)
 [![Coverage Status](https://coveralls.io/repos/github/PabloVillacanhas/jenerator-js/badge.svg?branch=main)](https://coveralls.io/github/PabloVillacanhas/jenerator-js?branch=main)
@@ -11,6 +12,15 @@ No dependencies. All
 - Supports the generation of objects with numeric and string values.
 - Supports the generation of constant fields.
 - Supportsd the random pick between a set of different items with `randomFrom`.
+
+## Install
+```
+npm install jenerator-js
+```
+or
+```
+yarn add jenerator-js
+```
 
 As simple as:
 
@@ -28,6 +38,6 @@ MockBuilder(10, {
   });
 ```
 
-See working example in [Codesandbox](https://codesandbox.io/s/jeneratorjs-demo-lryf2d?file=/src/useRandomizer.tsx)
+You can see a  working example in [Codesandbox](https://codesandbox.io/s/jeneratorjs-demo-lryf2d?file=/src/useRandomizer.tsx)
 
 For a more powerful library you can take a look into [falso](https://www.npmjs.com/package/@ngneat/falso)
